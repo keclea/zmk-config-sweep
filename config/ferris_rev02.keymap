@@ -123,6 +123,16 @@
             bindings = <&kp LA(LC(DELETE))>;
             key-positions = <1 2 3>;
         };
+
+        bootloaderright {
+            bindings = <&bootloader>;
+            key-positions = <8 18 28>;
+        };
+
+        bootloaderleft {
+            bindings = <&bootloader>;
+            key-positions = <1 11 21>;
+        };
     };
 
     keymap {
