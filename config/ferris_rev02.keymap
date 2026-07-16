@@ -44,7 +44,6 @@
             flavor = "hold-preferred";
             bindings = <&kp>, <&kp>;
 
-            label = "HRSHIFT_L";
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33>;
@@ -57,7 +56,6 @@
             flavor = "hold-preferred";
             bindings = <&kp>, <&kp>;
 
-            label = "HRSHIFT_R";
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>;
@@ -70,7 +68,6 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
-            label = "HRL";
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <5 6 7 8 9 15 16 17 18 19 25 26 27 28 29 32 33>;
@@ -83,7 +80,6 @@
             flavor = "balanced";
             bindings = <&kp>, <&kp>;
 
-            label = "HRR";
             hold-while-undecided;
             hold-trigger-on-release;
             hold-trigger-key-positions = <0 1 2 3 4 10 11 12 13 14 20 21 22 23 24 30 31>;
@@ -95,8 +91,6 @@
             tapping-term-ms = <300>;
             flavor = "tap-preferred";
             bindings = <&lt>, <&kp>;
-
-            label = "SPACE_FUNCTION";
         };
 
         bootloader_tap: bootloader_tap {
